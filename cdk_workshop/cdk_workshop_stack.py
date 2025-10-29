@@ -2,7 +2,7 @@ from constructs import Construct
 from aws_cdk import (
     Stack,
     aws_lambda as _lambda,
-    api_gateway as _apigw,
+    aws_apigateway as _apigw,
 )
 
 class CdkWorkshopStack(Stack):
